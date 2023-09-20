@@ -51,7 +51,8 @@ nav li::after {
 }
 
 main {
-  color: black;
+  background-color: #9aff00b8;
+  color: #000000d4;
   padding: 20px;
   margin-inline: auto;
 }
@@ -69,6 +70,23 @@ address > * {
   padding: 5px 20px;
   font-style: normal;
   font-weight: 700;
+}
+
+article header {
+  margin-bottom: 10px;
+}
+
+article p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+article footer {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 25px;
+  font-size: 0.8rem;
+  line-height: 1.25rem;
 }
 
 /* Classes */
