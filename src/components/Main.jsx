@@ -10,7 +10,7 @@ import Award from '../pages/Award';
 function Main() {
   return (
     <main>
-      <div>
+      <div className='wrapper'>
         <Routes>
           <Route path='/' element={<About />} />
           <Route path='/education' element={<Education />} />

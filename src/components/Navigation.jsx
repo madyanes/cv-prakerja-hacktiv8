@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Navigation() {
   return (
     <nav>
-      <div className='wrapper'>
+      <div className='wrapper center'>
         <ul>
           <li>
             <Link to='/'>About</Link>
