@@ -6,7 +6,59 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-family: 'Mooli', sans-serif;
   color: #000000cf;
+}
+
+/* Site Header */
+
+#root > header {
+  font-family: 'Lato', sans-serif;
+  background-color: #ff220ba3;
+  color: white;
+  padding-block: 15px;
+}
+
+#root > header h1 {
+  text-transform: uppercase;
+}
+
+address {
+  display: flex;
+  gap: 10px;
+}
+
+address > * {
+  background-color: #f6f8fa;
+  color: #656d76;
+  border-radius: 25px;
+  padding: 5px 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Classes */
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-inline: auto;
+  width: 60vw;
+}
+
+.photo {
+  width: 200px;
+  border-radius: 50px;
+}
+
+.summary {
+  margin-block: 20px;
+  font-size: 0.8rem;
 }
