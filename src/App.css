@@ -29,6 +29,12 @@ body {
   text-transform: uppercase;
 }
 
+#root > footer {
+  background-color: #ff230ba6;
+  padding-block: 20px;
+  color: white;
+}
+
 nav {
   background-color: #0000ff9a;
   padding-block: 10px;
