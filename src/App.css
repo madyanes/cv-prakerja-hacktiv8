@@ -38,7 +38,8 @@ nav {
 nav ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  column-gap: 20px;
+  row-gap: 5px;
   list-style: none;
   color: white;
 }
@@ -117,7 +118,8 @@ article footer {
 
 @media screen and (width <= 768px) {
   nav ul {
-    gap: 10px;
+    column-gap: 10px;
+    row-gap: 5px;
   }
 
   .wrapper {
