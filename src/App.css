@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 a {
@@ -27,6 +28,26 @@ body {
 
 #root > header h1 {
   text-transform: uppercase;
+}
+
+nav {
+  background-color: #0000ffbf;
+  padding-block: 10px;
+  margin-inline: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+nav li::before {
+  content: '[ ';
+}
+
+nav li::after {
+  content: ' ]';
 }
 
 address {
@@ -67,6 +88,10 @@ address > * {
 /* Media Queries */
 
 @media screen and (width <= 768px) {
+  nav ul {
+    gap: 10px;
+  }
+
   .wrapper {
     flex-direction: column;
     width: 80vw;
