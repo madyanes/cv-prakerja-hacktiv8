@@ -1,3 +1,10 @@
+import {
+  TfiEmail,
+  TfiLinkedin,
+  TfiGithub,
+  TfiTwitterAlt,
+} from 'react-icons/tfi';
+
 import photo from '../assets/images/photo.jpg';
 
 function Header() {
@@ -23,27 +30,29 @@ function Header() {
             </p>
           </div>
           <address>
-            <a href='mailto:madyanes.dev@gmail.com'>Email</a>
+            <a href='mailto:madyanes.dev@gmail.com'>
+              <TfiEmail />
+            </a>
             <a
               href='https://www.linkedin.com/in/madyanes'
               target='_blank'
               rel='noreferrer'
             >
-              LinkedIn
+              <TfiLinkedin />
             </a>
             <a
               href='https://github.com/madyanes'
               target='_blank'
               rel='noreferrer'
             >
-              GitHub
+              <TfiGithub />
             </a>
             <a
               href='https://twitter.com/madyanes700'
               target='_blank'
               rel='noreferrer'
             >
-              Twitter
+              <TfiTwitterAlt />
             </a>
           </address>
         </div>

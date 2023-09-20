@@ -75,8 +75,12 @@ address {
 address > * {
   background-color: #f6f8fa;
   color: #656d76;
-  border-radius: 25px;
-  padding: 5px 20px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-style: normal;
   font-weight: 700;
 }
