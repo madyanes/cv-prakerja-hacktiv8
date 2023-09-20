@@ -1,8 +1,17 @@
-# React + Vite
+# Curriculum Vitae
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sebuah CV daring yang dibuat dengan pustaka React. Merupakan sebuah final project untuk mendapatkan sertifikat pelatihan program Prakerja yang diselenggarakan oleh PT Hacktivate Teknologi Indonesia (Hacktiv8).
 
-Currently, two official plugins are available:
+## Jalankan di mesin lokal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Instalasi dependensi modul Node yang dibutuhkan.
+
+   ```bash
+   npm install
+   ```
+
+2. Jalankan server pengembangan.
+
+   ```bash
+   npm run dev
+   ```
