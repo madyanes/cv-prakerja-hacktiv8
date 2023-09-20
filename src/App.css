@@ -20,7 +20,7 @@ body {
 
 #root > header {
   font-family: 'Lato', sans-serif;
-  background-color: #ff220ba3;
+  background-color: #ff230ba6;
   color: white;
   padding-block: 15px;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 nav {
-  background-color: #0000ffbf;
+  background-color: #0000ff9a;
   padding-block: 10px;
   margin-inline: auto;
 }
@@ -52,7 +52,7 @@ nav li::after {
 }
 
 main {
-  background-color: #9aff00b8;
+  background-color: #33ff0069;
   color: #000000d4;
   padding: 20px;
   margin-inline: auto;
