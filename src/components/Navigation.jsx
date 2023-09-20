@@ -1,16 +1,18 @@
+import { Link } from 'react-router-dom';
+
 function Navigation() {
   return (
     <nav>
       <div className='wrapper'>
         <ul>
           <li>
-            <a href='#'>Education</a>
+            <Link to='/'>Education</Link>
           </li>
           <li>
-            <a href='#'>Expertise</a>
+            <Link to='/expertise'>Expertise</Link>
           </li>
           <li>
-            <a href='#'>Experience</a>
+            <Link to='/experience'>Experience</Link>
           </li>
         </ul>
       </div>

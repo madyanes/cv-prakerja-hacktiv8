@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: white;
 }
 
 a {
@@ -40,6 +39,7 @@ nav ul {
   display: flex;
   gap: 50px;
   list-style: none;
+  color: white;
 }
 
 nav li::before {
@@ -48,6 +48,14 @@ nav li::before {
 
 nav li::after {
   content: ' ]';
+}
+
+main {
+  color: black;
+  padding: 20px;
+  border: 1px solid black;
+  width: 70vw;
+  margin-inline: auto;
 }
 
 address {
