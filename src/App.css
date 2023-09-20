@@ -63,6 +63,7 @@ main {
   color: #000000d4;
   padding: 20px;
   margin-inline: auto;
+  min-height: 50vh;
 }
 
 address {
@@ -123,6 +124,10 @@ article footer {
 /* Media Queries */
 
 @media screen and (width <= 768px) {
+  #root > header h1 {
+    font-size: 1.8rem;
+  }
+
   nav ul {
     column-gap: 10px;
     row-gap: 5px;
