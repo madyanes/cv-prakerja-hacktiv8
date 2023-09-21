@@ -147,7 +147,7 @@ section :is(h1, h2, h3, h4, h5, h6) {
 }
 
 .center {
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .section-group-item h2 {
@@ -235,8 +235,8 @@ section :is(h1, h2, h3, h4, h5, h6) {
     width: 80vw;
   }
 
-  .photo {
-    width: 100%;
+  figure {
+    margin-inline: auto;
   }
 
   #section-group-grid {
