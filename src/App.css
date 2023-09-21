@@ -33,6 +33,11 @@ body {
   background-color: #ff230ba6;
   padding-block: 20px;
   color: white;
+  text-align: center;
+}
+
+#root > footer p {
+  width: 100%;
 }
 
 nav {
