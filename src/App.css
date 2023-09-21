@@ -85,8 +85,12 @@ address > * {
   font-weight: 700;
 }
 
+article {
+  width: 100%;
+}
+
 article header {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 article p:not(:last-child) {
@@ -123,6 +127,33 @@ article footer {
 .summary {
   margin-block: 20px;
   font-size: 0.8rem;
+}
+
+.educational-backgrounds h2 {
+  font-size: 1rem;
+}
+
+.educational-backgrounds ul {
+  list-style: '✓';
+  padding-left: 20px;
+}
+
+.educational-backgrounds li {
+  padding: 10px;
+}
+
+.educational-backgrounds p {
+  font-size: 0.8rem;
+  padding-top: 5px;
+}
+
+/* IDs */
+
+#educational-backgrounds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 10px;
 }
 
 /* Media Queries */
