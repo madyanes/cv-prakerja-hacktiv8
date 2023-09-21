@@ -10,7 +10,7 @@ function Education() {
           <ul>
             <li>
               <h2>LP3I College Kediri (Diploma II)</h2>
-              <p>Majoring in Computer and Network Engineering</p>
+              <p>Majoring in Computer Informatics</p>
             </li>
             <li>
               <h2>Vocational High School 1 Kediri</h2>
