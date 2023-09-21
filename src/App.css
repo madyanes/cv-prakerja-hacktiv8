@@ -23,7 +23,8 @@ body {
 
 /* Site Header */
 
-#root > header {
+#root > header,
+#root > footer {
   font-family: 'Lato', sans-serif;
   background-color: #ff230ba6;
   color: white;
