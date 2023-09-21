@@ -78,8 +78,8 @@ main {
 
 address {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
+  margin-top: 10px;
 }
 
 address > * {
@@ -142,8 +142,8 @@ section :is(h1, h2, h3, h4, h5, h6) {
 }
 
 .photo {
-  width: 200px;
-  border-radius: 50px;
+  width: 100px;
+  border-radius: 25%;
 }
 
 .center {
