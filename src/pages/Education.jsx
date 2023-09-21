@@ -4,8 +4,8 @@ function Education() {
       <header>
         <h1>Educational Backgrounds</h1>
       </header>
-      <div id='educational-backgrounds'>
-        <section className='educational-backgrounds'>
+      <div id='section-group'>
+        <section className='section-group-item'>
           <h1>Formal Educations</h1>
           <ul>
             <li>
@@ -18,7 +18,7 @@ function Education() {
             </li>
           </ul>
         </section>
-        <section className='educational-backgrounds'>
+        <section className='section-group-item'>
           <h1>Non-Formal Educations</h1>
           <ul>
             <li>

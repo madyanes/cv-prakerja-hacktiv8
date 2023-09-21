@@ -134,27 +134,27 @@ article footer {
   font-size: 0.8rem;
 }
 
-.educational-backgrounds h2 {
+.section-group-item h2 {
   font-size: 1rem;
 }
 
-.educational-backgrounds ul {
+.section-group-item ul {
   list-style: '✓';
   padding-left: 20px;
 }
 
-.educational-backgrounds li {
+.section-group-item li {
   padding: 10px;
 }
 
-.educational-backgrounds p {
+.section-group-item p {
   font-size: 0.8rem;
   padding-top: 5px;
 }
 
 /* IDs */
 
-#educational-backgrounds {
+#section-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
