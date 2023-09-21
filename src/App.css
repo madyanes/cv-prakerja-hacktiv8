@@ -98,6 +98,10 @@ article header {
   margin-bottom: 20px;
 }
 
+article p {
+  line-height: 1.5rem;
+}
+
 article p:not(:last-child) {
   margin-bottom: 10px;
 }
