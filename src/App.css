@@ -60,14 +60,6 @@ nav ul {
   color: white;
 }
 
-nav li::before {
-  content: '[ ';
-}
-
-nav li::after {
-  content: ' ]';
-}
-
 main {
   background-color: whitesmoke;
   color: #000000d4;
