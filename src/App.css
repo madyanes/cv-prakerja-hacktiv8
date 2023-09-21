@@ -22,7 +22,7 @@ body {
   font-family: 'Lato', sans-serif;
   background-color: #ff230ba6;
   color: white;
-  padding-block: 15px;
+  padding-block: 20px;
 }
 
 #root > header h1 {
@@ -176,5 +176,9 @@ article footer {
   .wrapper {
     flex-direction: column;
     width: 80vw;
+  }
+
+  .photo {
+    width: 100%;
   }
 }
