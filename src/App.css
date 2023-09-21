@@ -11,6 +11,11 @@ a {
   color: inherit;
 }
 
+a.email,
+a.whatsapp {
+  color: blue;
+}
+
 body {
   font-family: 'Mooli', sans-serif;
   color: #000000cf;
@@ -114,6 +119,10 @@ article footer,
   margin-top: 25px;
   font-size: 0.8rem;
   line-height: 1.25rem;
+}
+
+article#about th {
+  padding-right: 10px;
 }
 
 /* Classes */
