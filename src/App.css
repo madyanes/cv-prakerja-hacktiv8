@@ -213,6 +213,10 @@ article#about th {
   #section-group-grid {
     grid-template-columns: repeat(3, calc(33.33% - 10px));
   }
+
+  .wrapper {
+    width: 80vw;
+  }
 }
 
 @media screen and (width <= 768px) {
