@@ -103,6 +103,10 @@ article header {
   margin-bottom: 20px;
 }
 
+article p {
+  line-height: 1.5rem;
+}
+
 article p:not(:last-child) {
   margin-bottom: 10px;
 }
@@ -119,6 +123,10 @@ article footer,
 
 article#about th {
   padding-right: 10px;
+}
+
+section :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 5px;
 }
 
 /* Classes */
