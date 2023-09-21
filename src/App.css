@@ -111,12 +111,15 @@ article p:not(:last-child) {
   margin-bottom: 10px;
 }
 
-article footer,
-.summary {
+article p.summary {
+  margin-bottom: 20px;
+}
+
+article footer {
+  margin-top: 25px;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  margin-top: 25px;
   font-size: 0.8rem;
   line-height: 1.25rem;
 }
@@ -130,10 +133,6 @@ section :is(h1, h2, h3, h4, h5, h6) {
 }
 
 /* Classes */
-
-.summary {
-  color: black;
-}
 
 .wrapper {
   display: flex;
@@ -149,11 +148,6 @@ section :is(h1, h2, h3, h4, h5, h6) {
 
 .center {
   justify-content: center;
-}
-
-.summary {
-  margin-block: 20px;
-  font-size: 0.8rem;
 }
 
 .section-group-item h2 {
