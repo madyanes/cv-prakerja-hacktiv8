@@ -103,10 +103,6 @@ article header {
   margin-bottom: 20px;
 }
 
-article p {
-  line-height: 1.5rem;
-}
-
 article p:not(:last-child) {
   margin-bottom: 10px;
 }
@@ -162,12 +158,19 @@ article#about th {
 }
 
 .section-group-item li {
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 .section-group-item p {
   font-size: 0.8rem;
   padding-top: 5px;
+}
+
+.section-group-item ul ul {
+  list-style: none;
+  font-size: 0.8rem;
+  padding-left: 0;
+  margin-left: -0.5rem;
 }
 
 .li-icon-only ul {

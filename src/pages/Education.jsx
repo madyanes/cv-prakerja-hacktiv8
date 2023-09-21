@@ -22,8 +22,18 @@ function Education() {
           <h1>Non-Formal Educations</h1>
           <ul>
             <li>
-              <h2>Baparekraf Digital Talent 2023</h2>
+              <h2>Baparekraf Digital Talent 2023 (Dicoding)</h2>
               <p>Belajar Dasar Pemrograman Web</p>
+            </li>
+            <li>
+              <h2>Dicoding</h2>
+              <ul>
+                <li>Belajar Dasar Pemrograman JavaScript</li>
+                <li>Belajar Membuat Front-End Web untuk Pemula</li>
+                <li>Belajar Membuat Aplikasi Web dengan React</li>
+                <li>Memulai Pemrograman dengan Dart</li>
+                <li>Belajar Fundamental Aplikasi Web dengan React</li>
+              </ul>
             </li>
           </ul>
         </section>
