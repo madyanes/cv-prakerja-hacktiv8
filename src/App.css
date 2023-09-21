@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
   box-sizing: border-box;
@@ -17,7 +17,7 @@ a.whatsapp {
 }
 
 body {
-  font-family: 'Mooli', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #000000cf;
 }
 
@@ -25,7 +25,6 @@ body {
 
 #root > header,
 #root > footer {
-  font-family: 'Lato', sans-serif;
   background-color: #ff230ba6;
   color: white;
   padding-block: 20px;
