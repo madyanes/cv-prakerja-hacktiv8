@@ -203,17 +203,13 @@ article#about th {
 
 #section-group-grid {
   display: grid;
-  grid-template-columns: repeat(4, calc(25% - 10px));
+  grid-template-columns: repeat(2, calc(50% - 10px));
   gap: 10px;
 }
 
 /* Media Queries */
 
 @media screen and (width <= 1024px) {
-  #section-group-grid {
-    grid-template-columns: repeat(3, calc(33.33% - 10px));
-  }
-
   .wrapper {
     width: 80vw;
   }
