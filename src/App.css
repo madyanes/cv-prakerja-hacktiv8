@@ -106,7 +106,8 @@ article p:not(:last-child) {
   margin-bottom: 10px;
 }
 
-article footer {
+article footer,
+.summary {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
@@ -116,6 +117,10 @@ article footer {
 }
 
 /* Classes */
+
+.summary {
+  color: black;
+}
 
 .wrapper {
   display: flex;
