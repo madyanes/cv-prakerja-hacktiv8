@@ -10,10 +10,12 @@ function Education() {
           <ul>
             <li>
               <h2>LP3I College Kediri (Diploma II)</h2>
+              <p className='period'>Graduated in 2016</p>
               <p>Majoring in Computer Informatics</p>
             </li>
             <li>
               <h2>Vocational High School 1 Kediri</h2>
+              <p className='period'>Graduated in 2014</p>
               <p>Majoring in Computer and Network Engineering</p>
             </li>
           </ul>
@@ -22,11 +24,13 @@ function Education() {
           <h1>Non-Formal Educations</h1>
           <ul>
             <li>
-              <h2>Baparekraf Digital Talent 2023 (Dicoding)</h2>
+              <h2>Baparekraf Digital Talent 2023</h2>
+              <p className='period'>Graduated in 2023</p>
               <p>Belajar Dasar Pemrograman Web</p>
             </li>
             <li>
               <h2>Dicoding</h2>
+              <p className='period'>Graduated in 2023</p>
               <ul>
                 <li>Belajar Dasar Pemrograman JavaScript</li>
                 <li>Belajar Membuat Front-End Web untuk Pemula</li>

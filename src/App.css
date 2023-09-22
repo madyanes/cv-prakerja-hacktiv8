@@ -136,10 +136,6 @@ article#about th {
   padding-right: 10px;
 }
 
-section :is(h1, h2, h3, h4, h5, h6) {
-  margin-bottom: 5px;
-}
-
 /* Classes */
 
 .wrapper {
@@ -178,7 +174,6 @@ section :is(h1, h2, h3, h4, h5, h6) {
 
 .section-group-item p {
   font-size: 0.8rem;
-  padding-top: 5px;
 }
 
 .section-group-item ul ul {
@@ -212,6 +207,7 @@ section :is(h1, h2, h3, h4, h5, h6) {
 .period {
   font-size: small;
   margin: 0 !important;
+  padding: 0 !important;
 }
 
 .period::before {
