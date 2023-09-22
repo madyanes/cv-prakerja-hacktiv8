@@ -6,6 +6,7 @@ function Experience() {
       </header>
       <section>
         <h1>CV. Linksoft Mitra Informatika</h1>
+        <p className='period'>June, 2017 - December, 2019</p>
         <p>
           I was a full-stack web developer, but mostly worked on backend
           requirements using Python scripting language and Django framework and

@@ -209,6 +209,19 @@ section :is(h1, h2, h3, h4, h5, h6) {
   flex: 0;
 }
 
+.period {
+  font-size: small;
+  margin: 0 !important;
+}
+
+.period::before {
+  content: '( ';
+}
+
+.period::after {
+  content: ' )';
+}
+
 /* IDs */
 
 #section-group {
