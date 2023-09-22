@@ -142,6 +142,22 @@ article#about th {
   padding-right: 10px;
 }
 
+article#award ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, calc(33.33% - 10px));
+  gap: 10px;
+}
+
+article#award li {
+  display: flex;
+  justify-content: center;
+}
+
+article#award img {
+  width: 100%;
+}
+
 aside h1 {
   font-size: 1rem;
 }
