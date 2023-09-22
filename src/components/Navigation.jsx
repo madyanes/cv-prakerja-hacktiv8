@@ -1,28 +1,37 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Navigation() {
+  const [isActive, setIsActive] = useState('');
+
+  const menu = [
+    { id: '', name: 'About' },
+    { id: 'education', name: 'Education' },
+    { id: 'expertise', name: 'Expertise' },
+    { id: 'experience', name: 'Experience' },
+    { id: 'interest', name: 'Interest' },
+    { id: 'award', name: 'Award' },
+  ];
+
+  const selectMenu = (page) => {
+    setIsActive(page);
+  };
+
   return (
     <nav>
       <div className='wrapper center'>
         <ul>
-          <li>
-            <Link to='/'>About</Link>
-          </li>
-          <li>
-            <Link to='/education'>Education</Link>
-          </li>
-          <li>
-            <Link to='/expertise'>Expertise</Link>
-          </li>
-          <li>
-            <Link to='/experience'>Experience</Link>
-          </li>
-          <li>
-            <Link to='/interest'>Interest</Link>
-          </li>
-          <li>
-            <Link to='/award'>Award</Link>
-          </li>
+          {menu.map((menu) => (
+            <li key={menu.id}>
+              <Link
+                to={`/${menu.id}`}
+                className={menu.id === isActive ? 'active' : ''}
+                onClick={() => selectMenu(menu.id)}
+              >
+                {menu.name}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>
