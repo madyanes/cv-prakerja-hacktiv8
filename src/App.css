@@ -45,6 +45,11 @@ body {
   position: relative;
 }
 
+#root > header .wrapper {
+  display: flex;
+  gap: 20px;
+}
+
 #root > header h1 {
   text-transform: uppercase;
   position: relative;
@@ -140,8 +145,6 @@ article#about th {
 /* Classes */
 
 .wrapper {
-  display: flex;
-  gap: 20px;
   margin-inline: auto;
   width: 60vw;
 }
