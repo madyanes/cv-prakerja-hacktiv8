@@ -253,15 +253,16 @@ article#about th {
   }
 
   .wrapper {
-    flex-direction: column;
     width: 80vw;
-  }
-
-  figure {
-    margin-inline: auto;
   }
 
   #section-group-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (width <= 541px) {
+  #root > header h1 {
+    font-size: 1.2rem;
   }
 }
