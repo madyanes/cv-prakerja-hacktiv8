@@ -3,8 +3,10 @@ function Footer() {
     <footer>
       <div className='wrapper'>
         <p>
-          Copyright &copy; {new Date().getFullYear()} by Madyan Eka Septian. All
-          Rights Reserved.
+          <span>
+            Copyright &copy; {new Date().getFullYear()} by Madyan Eka Septian.{' '}
+          </span>
+          <span>All Rights Reserved.</span>
         </p>
       </div>
     </footer>

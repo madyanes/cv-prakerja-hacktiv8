@@ -306,6 +306,12 @@ aside p {
   }
 }
 
+@media screen and (width <= 545px) {
+  #root > footer p span {
+    display: block;
+  }
+}
+
 @media screen and (width <= 541px) {
   #root > header h1 {
     font-size: 1.2rem;
