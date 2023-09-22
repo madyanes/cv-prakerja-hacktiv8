@@ -142,6 +142,15 @@ article#about th {
   padding-right: 10px;
 }
 
+aside h1 {
+  font-size: 1rem;
+}
+
+aside p {
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
+
 /* Classes */
 
 .wrapper {
@@ -220,6 +229,18 @@ article#about th {
 
 .period::after {
   content: ' )';
+}
+
+.announcement {
+  padding-block: 20px;
+  background-color: rgba(241, 239, 199, 0.541);
+}
+
+.announcement .wrapper {
+  background-color: #0aec826b;
+  /* color: white; */
+  padding: 20px;
+  border-radius: 10px;
 }
 
 /* IDs */
