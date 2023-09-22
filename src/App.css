@@ -23,15 +23,31 @@ body {
 
 /* Site Header */
 
-#root > header,
-#root > footer {
-  background-color: #ff230ba6;
+#root > header::before {
+  content: '';
+  background-image: url('assets/images/background.jpg');
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  z-index: -999;
+}
+
+#root > header {
+  background-color: #00000088;
   color: white;
   padding-block: 20px;
+  position: relative;
 }
 
 #root > header h1 {
   text-transform: uppercase;
+  position: relative;
 }
 
 #root > footer {
