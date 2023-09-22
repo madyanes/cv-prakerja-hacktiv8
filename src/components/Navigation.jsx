@@ -1,17 +1,29 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect, useMemo } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 function Navigation() {
   const [isActive, setIsActive] = useState('');
+  const location = useLocation();
 
-  const menu = [
-    { id: '', name: 'About' },
-    { id: 'education', name: 'Education' },
-    { id: 'expertise', name: 'Expertise' },
-    { id: 'experience', name: 'Experience' },
-    { id: 'interest', name: 'Interest' },
-    { id: 'award', name: 'Award' },
-  ];
+  const menu = useMemo(() => {
+    return [
+      { id: '', name: 'About' },
+      { id: 'education', name: 'Education' },
+      { id: 'expertise', name: 'Expertise' },
+      { id: 'experience', name: 'Experience' },
+      { id: 'interest', name: 'Interest' },
+      { id: 'award', name: 'Award' },
+    ];
+  }, []);
+
+  useEffect(() => {
+    const pathName = location.pathname.replace('/', '');
+    const activeMenu = menu.find((menu) => menu.id === pathName);
+
+    if (activeMenu) {
+      setIsActive(activeMenu.id);
+    }
+  }, [location, menu]);
 
   const selectMenu = (page) => {
     setIsActive(page);
