@@ -10,7 +10,7 @@ import photo from '../assets/images/photo.jpg';
 function Header() {
   return (
     <header>
-      <div className='wrapper center'>
+      <div className='wrapper'>
         <figure>
           <img className='photo' src={photo} alt='My photo' />
         </figure>
