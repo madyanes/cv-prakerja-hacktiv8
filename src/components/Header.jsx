@@ -1,9 +1,5 @@
-import {
-  TfiEmail,
-  TfiLinkedin,
-  TfiGithub,
-  TfiTwitterAlt,
-} from 'react-icons/tfi';
+import { TfiLinkedin, TfiGithub, TfiTwitterAlt } from 'react-icons/tfi';
+import { FaEnvelope } from 'react-icons/fa';
 
 import photo from '../assets/images/photo.jpg';
 
@@ -21,7 +17,7 @@ function Header() {
           </div>
           <address>
             <a href='mailto:madyanes.dev@gmail.com'>
-              <TfiEmail />
+              <FaEnvelope />
             </a>
             <a
               href='https://www.linkedin.com/in/madyanes'
