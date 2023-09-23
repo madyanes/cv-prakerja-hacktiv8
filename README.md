@@ -1,6 +1,11 @@
 # Curriculum Vitae
 
-Sebuah CV daring yang dibuat dengan pustaka React. Merupakan sebuah _final project_ untuk mendapatkan sertifikat pelatihan program Prakerja yang diselenggarakan oleh PT Hacktivate Teknologi Indonesia (Hacktiv8).
+Web CV pribadi daring yang dibuat dengan pustaka React. Merupakan sebuah _final project_ untuk mendapatkan sertifikat pelatihan program Prakerja yang diselenggarakan oleh PT Hacktivate Teknologi Indonesia (Hacktiv8).
+
+## Alamat web
+
+- Netlify (original) → [fpportofoliomadyan.netlify.app](https://fpportofoliomadyan.netlify.app/)
+- Domain kustom → [cv.madyan.my.id](https://cv.madyan.my.id/)
 
 ## Jalankan di mesin lokal
 
