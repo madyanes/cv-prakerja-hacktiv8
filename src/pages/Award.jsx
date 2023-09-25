@@ -4,6 +4,7 @@ import certDicodingBelajarMembuatFrontEndWebPemula from '../assets/certificates/
 import certDicodingBelajarAplikasiWebReact from '../assets/certificates/belajar-membuat-aplikasi-web-dengan-react.png';
 import certDicodingMemulaiPemrogramanDart from '../assets/certificates/memulai-pemrograman-dengan-dart.png';
 import certDicodingBelajarFundamentalAplikasiWebReact from '../assets/certificates/belajar-fundamental-aplikasi-web-react.png';
+import certHacktiv8BelajarFundamentalWebProgrammer from '../assets/certificates/hacktiv8-belajar-langkah-fundamental-untuk-menjadi-web-programmer.png';
 
 function Award() {
   return (
@@ -81,6 +82,18 @@ function Award() {
             <img
               src={certDicodingBelajarFundamentalAplikasiWebReact}
               alt='Belajar Fundamental Aplikasi Web dengan React'
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            target='_blank'
+            href='https://sertiva.id/credential/b5e965a9-8caf-40c9-8662-833ffaaf31de'
+            rel='noreferrer'
+          >
+            <img
+              src={certHacktiv8BelajarFundamentalWebProgrammer}
+              alt='Belajar Langkah Fundamental Web Programmer'
             />
           </a>
         </li>
